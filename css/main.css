@@ -1,0 +1,616 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Dancing+Script&family=Kablammo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.header{
+    background-image:
+    linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3))
+    ,url("http://www.engage.veented.com/restaurant/wp-content/uploads/sites/3/2017/04/shutterstock_277750193.jpg"); 
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+
+}
+.vip{
+    width: 3%;
+    height: 85px;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 27%;
+    color: #666;
+    font-size: 20px;
+    border-radius: 3%;
+    z-index: 1;
+}
+.vip-icon{
+padding-top: 15px;
+}
+.navbar{
+    padding-top: 10px;
+    padding-left: 30px;
+    position: fixed;
+    width: 100%;
+}
+.logo , .nav{
+    float: left;
+}
+.logo{
+    padding-right:10% ;
+    width: 40%;
+}
+.logo img{
+    width: 40%;
+}
+.nav{
+    padding-top: 20px;
+    width: 60%;
+    padding-left: 10%;
+}
+.list{
+    list-style-type:none;
+    margin-left: 65px;
+    padding-top: 10px;
+    
+}
+.list-item1{
+    
+    float: left;
+    width: 72px;
+    color: white;
+    font-size: 18px;
+}
+
+.list-item{
+    
+    float: left;
+    width: 72px;
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;  
+}
+.a{
+    text-decoration: none;
+}
+
+.list-item:hover{
+    color: rgb(229, 112, 54);
+}
+
+.clearfix{
+    clear: both;
+}
+.header-content{
+    margin-top: 9%;
+    color: white;
+
+}
+.header-content img{
+    width: 27%;
+    
+}
+.header-content h1{
+    font-size: 76px;
+    font-weight: 10;
+    font-family: 'Alegreya', serif;
+}
+.header-content p{
+    margin-top: 23px; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.buttom , .buttom1{
+    border-radius: 10%;
+    margin: 30px 10px 0px 0px;
+    padding: 16px;
+    font-size: 16px;
+}
+.buttom{
+    background-color: white;
+}
+.buttom1, .food-button{
+    color:white;
+   background-color: #c1ab84; 
+}
+.buttom1:hover{
+background-color:white;
+color: black;
+}
+.buttom:hover{
+    background-color:rgb(227, 232, 237, 0.8);
+}
+/*end of section 1*/
+
+.about{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.photochef, .aboutdetails ,.map-text{
+    float: left;
+}
+.photochef{
+width: 30%;
+
+margin-left: 18%;
+}
+.photochef img{
+    width: 100%;
+}
+.aboutdetails, .map-text{
+    
+    width: 26%;
+    margin: 6% 0%  0% 6%;
+    
+
+}
+.aboutparagraph, .iconParagraphAbout {
+    font-family: 'Alegreya', serif;
+    font-size:18px;
+    font-weight: 15;
+    color: rgb(104, 104, 104);
+}
+.aboutdetails h2{
+    padding-bottom: 15px;
+    font-size: 36px;
+    font-weight: 10;
+}
+.aboutdetails h3, .food-h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+   color:rgb(193, 171, 132);
+   font-weight: 20;
+   padding-bottom: 20px;
+}
+.aboutparagraph{
+    
+    padding-bottom: 20px;
+    
+}
+.iconParagraphAbout{
+    float: left;
+    width: 80%;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.aboutIcon{
+float: left;
+width:50px;
+height: 50px;
+background-color: #c1ab84;
+border-radius: 50%;
+text-align: center;
+color: white;
+font-size: 22px;
+padding-top: 18px;
+
+
+}
+
+.explainicon{
+padding-top: 20px;
+}
+.rev{
+    background-color:#f8f8f8 ;
+}
+.reviewers{
+    
+    margin: auto;
+    padding:100px 210px;   
+}
+.reviwersContent ,.revimg {
+float: left;
+
+}
+.revimg{
+width: 45%;
+}
+.revimg img{
+    width: 100%;
+}
+.reviwersContent{
+    padding-right: 20px;
+    width: 55%;
+}
+.reviwersContent h2,.map-h2{
+    font-size: 36px;
+    font-family: 'Alegreya', serif;
+    font-weight:8;
+}
+
+.reviwersContent h3{
+    padding-top: 10px;
+    color: #c1ab84;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+.reviwersContentparagrap ,.food-item-p,.map-p{
+padding-top: 20px;
+font-size: 18px;
+color: #686868; 
+line-height: 25px;  
+}
+.like-icon{ 
+    float: left;
+    width:6%; 
+    color:#c1ab84; 
+}
+
+.icons{
+    padding-top: 40px;
+}
+.paragraph-icon{
+    font-size: 18px;
+    float: left;
+    width:90%;
+    color: #686868; 
+    
+}
+.imageRest{
+    float: left;
+    position: relative;
+    padding: 400px 0px 0px 0px;
+    width: 100%;
+    background-image: url("../img/shutterstock_280369721.jpg");
+    margin-right: 0;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+.food{
+    background-color:#f8f8f8 ;
+
+}
+.food-menu{
+    
+    margin: auto;
+    padding:50px 80px 20px 0px;
+    text-align: center;
+    
+}
+.headerfood{
+   padding-bottom: 20px;
+   padding-left: 110px;
+   
+}
+.food-h2{
+    font-size: 36px;
+    font-weight:8;
+}
+.food-h3{
+    font-size: 30px;
+}
+.food-h2 ,.food-item-h4{
+    font-family: 'Alegreya', serif;
+    padding-top: 15px;
+   
+}
+.food-item-h4{
+    color: rgb(37, 48, 72);
+    font-weight: 6;
+    font-size: 21px;
+}
+.food-item-p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+.food-list{
+    margin-left:15%;
+}
+.food-item{
+    float: left;
+    width:28% ;
+    margin-right: 35px;
+}
+.food-item img{
+    width: 100%; 
+}
+.food-button{
+    font-size: 15px;
+    padding : 10px 18px;
+    background-color: rgb(193, 171, 132);
+    font-family: 'Alegreya Sans';
+    Line-height: 23px;
+    color: white;
+    border-radius: 4%;
+    border: 2px solid transparent;
+    margin-bottom: 12px;
+    margin-left: 12%;
+}
+ul{
+    list-style-type: none;
+}
+.maps{
+    
+    margin: auto;
+    padding-bottom: 80px;
+}
+.map-text{
+    width: 45%;
+    padding-left: 10%;
+    padding-right: 50px;
+}
+iframe{
+
+    width: 100%;
+    height: 400px;
+    border: 0;
+    
+}
+.icon-map-list{
+    padding-top: 20px;
+}
+span{
+font-size: 18px;
+color: #686868;
+margin-left: 10px
+}
+.map-icon{
+    background-color: #c1ab84;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 11px;
+    color: white;
+}
+.map-iframe{
+    float: left;
+    width: 34%;
+    padding-top: 100px;
+    margin-left: 30px;
+}
+.contact{
+    background-color: rgb(64, 61, 56);
+    line-height: 36px;
+    font-size: 16px;
+    padding: 60px  0 70px 240px;
+    font-family: 'Alegreya', serif;
+    
+    
+}
+.about-us,.useful-links ,.opening-hours,.contact-details{
+    float: left;
+    width: 20%;
+}
+.about-us p{
+    padding-bottom: 20px;
+}
+.contact p ,.manchester ,.opening-hours li,.contact-icon{
+    color: #969696;
+   
+}
+
+.contact h4{
+    color:#fff;
+    font-size: 20px;
+    opacity: 1;
+    margin-bottom: 25px;
+    font-weight: 5;
+
+}
+.useful-links{
+    padding-right: 70px;
+    padding-left: 35px;
+    
+}
+.useful-links ul li,.opening-hours ul li,.contact-details li{
+    padding:8px 0px;
+    border-bottom: rgb(255, 255, 255,0.06) 0.1px solid ;   
+}
+.contact li a{
+color: #A9A9A9;
+text-decoration: none;
+}
+.opening-hours{
+    padding-right: 40px;
+}
+
+
+
+.contact-details-map{
+
+    background-image:url("../img/contact-details-map.png");
+    background-size:90%;
+    background-position: 0px 140px;
+    background-repeat: no-repeat; 
+    
+    
+      
+}
+.fa-regular{
+    color: #969696;
+    font-size: 10px;
+    padding-right: 10px;
+
+}
+
+/*--------------------------------------*/
+.end{
+    background-color: #353330;
+    text-align: center;
+    padding-top:60px;
+    color: white;
+    line-height: 45px;
+    padding-bottom: 50px;
+    
+}
+.end p,.icon-end{
+    font-size: 19px;
+    color:#777;
+    font-family: 'Alegreya', serif;
+    
+}
+.end p{
+    padding-bottom: 20px;
+  
+}
+.social-icon a{
+    margin-right: 8px;
+}
+.icon-end{
+    color: #8c8a86;
+    background-color: #484540;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 20px;
+
+}
+
+.icon-end:hover{
+    background-color:#014c8c;
+    color: white;
+
+}
+.icon-end4:hover{
+    background-color:rgb(3, 117, 217);
+}
+a{
+    text-decoration: none;
+}
+.navbar.scroll {
+    background-color:#353330;
+}
+/*----------------media section--------------------------*/
+@media screen and (max-width:576px) {
+    .logo{
+        width: 100%;
+        text-align: center;
+    }
+    .logo img{
+     width: 30%;    
+    }
+    .nav{
+        padding:0;
+        margin: 0;
+        width: 100%;
+    }
+   
+    .list-item,.list-item1{
+        font-size: 4px;
+        width:6px;
+        padding-right: 40px;
+    }
+    .container{
+        width: 100%;
+    }
+    .header-content{
+     margin-top: 100px;
+    }
+    .header-content h1{
+        font-size: 35px;
+    }
+    .header-content{
+        font-size: 20px;
+    }
+    .header-content img{
+        width: 70%;
+    }
+   .vip{
+    width: 40px;
+    padding-right: 20px;
+    padding-left: 10px;
+   }
+   
+
+   .photochef,.aboutdetails{
+    width: 100%;
+    margin: auto;
+    
+   }
+   .aboutdetails{
+    padding: 30px 0px 0px 20px;
+   }
+
+   .reviwersContent{
+    float: none;
+    padding-bottom:80px;
+    width:100%;
+   }
+   .reviewers{
+    width: 100%;
+    
+    padding: 10% 0% 10% 5%;
+    margin: 0;
+   }
+
+  .revimg {
+    
+    width:100%;
+  }
+  
+  .headerfood,.food,.food-item,.food-item img{
+    width: 100%;
+  }
+  .food{
+    padding-bottom: 10%;
+  }
+  .headerfood{
+   padding: 0;
+   margin-left: 10%;
+  }
+  .food-list{
+    width: 100%;
+    margin: auto;
+    
+  }
+
+  
+  .food-item{
+    width:350px;
+    margin-left: 5% ;
+    padding: 10% 0  10%;
+  }
+  .food-h2,.food-h3,.food-item-p,.food-list{
+    padding: 0%;
+    margin: 0%;
+  }
+  .food-item img,.map-text,.map-iframe{
+    width: 100%;
+  }
+  
+  .map-text{
+    padding-left:0 ;
+    
+  }
+  .map-iframe{
+    width: 95%;
+      margin-left:8px;
+  }
+
+.contact{
+    margin: 0;
+   padding: 13% 0% 13% 3%;
+}
+.about-us,.useful-links,.opening-hours,.contact-details{
+    width: 100%;
+    padding-top: 10PX;
+    padding-left: 2%;
+    
+    
+}
+.opening-hours h4, .contact-details h4{
+    padding: 10PX;
+
+}
+.useful-links{
+    padding-left: 2%;
+    
+}
+span{
+    font-size: 16px;
+}
+  
+
+}
